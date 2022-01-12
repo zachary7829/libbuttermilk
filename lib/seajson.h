@@ -6,6 +6,7 @@
 #include <string.h>
 
 char * getstring(char *funckey, char *dict) {
+  printf("char getstring reached\n");
   char funckey1[strlen(funckey)];
   for (size_t i = 0; i < strlen(funckey); i++) {
     // Access each char in the string
