@@ -10,6 +10,7 @@ char * getvalue(char *dict, int occurrence, char *selectedplist) {
     }
     //system("clear");
     int tempint, testt1, testt2;
+    int occurrenceindex = 1;
     int linecount = 1;
     signed int textposplist = -1;
     int textposplistsave = 0;
@@ -38,7 +39,6 @@ char * getvalue(char *dict, int occurrence, char *selectedplist) {
       }
       line[textposplist-textposplistsave] = '\0';
       textposplistsave = textposplist + 1;
-    int occurrenceindex = 1;
       tempint = 0;
       if (stringline == 1){
         testt1 = 0;
